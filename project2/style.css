@@ -1,0 +1,129 @@
+body{
+    font-family: sans-serif;
+    background-color: #ddd;
+}
+
+
+section{
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+    flex-direction: column;
+    height: 90vh;
+}
+
+.row1,.row2{
+    flex: 1 0 auto;
+    width: 100%;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.row1 h2{
+    font-size: 2rem;
+}
+.row1 h3{
+    font-size: 1.5rem;
+}
+
+form{
+    width: 68%;
+    margin: 0 auto;
+    background-color: rgb(245, 244, 244);
+    padding: 1.2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.4rem 0.2rem rgba(0,0,0,0.2);
+}
+
+.form-group{
+    position: relative;
+    margin: 0.4rem 0 0.8rem;
+}
+
+label{
+    margin-bottom: 0.4rem;
+}
+
+.form-group input,.form-group textarea{
+    font-family: sans-serif;
+    /* font-size: 1.1rem; */
+    letter-spacing: 0.1rem;
+    border: none;
+    color: #000;
+    border-bottom: 2px solid rgb(80, 78, 78);
+    padding: 0.5rem 0 ;
+    padding-left: 0.4rem;
+    margin-bottom: 0.4rem;
+    border-radius: 0.3rem;
+    outline: none;
+    width: 100%;
+}
+
+form button{
+    width: 100%;
+    padding: 0.4rem;
+    /* border: 1px solid rgb(126, 122, 122); */
+    font-size: 1.1rem;
+    letter-spacing: 0.1rem;
+    background-color: rgb(20, 245, 95);
+    /* color: #aaa; */
+    border-radius: 0.5rem;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+}
+
+form button:active{
+    background-color: rgb(49, 252, 117);
+}
+
+.form-group p{
+    font-size: 0.8rem;
+    margin: 0.1rem 0;
+    text-align: right;
+    color: red;
+    display: none;
+}
+
+.form-group p.active{
+    display: block;
+}
+
+@media screen and (min-width: 990px){
+    section{
+        flex-direction: row;
+        height: 100vh;
+    }
+
+    .row1,.row2{
+        width: auto;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
