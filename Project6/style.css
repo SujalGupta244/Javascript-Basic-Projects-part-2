@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+form, .fact{
+    background-color: rgb(20, 20, 20);
+    padding: 1rem;
+    border-radius: 0.6rem;
+    margin-bottom: 1rem;
+    width: 350px;
+    text-align: center;
+}
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+input[type='number']{
+    background-color: #3a3a3a;
+    width: 70%;
+    height: 40px;
+    padding-left: 10px;
+    outline: none;
+    font-size: 24px;
+    border-radius: 4px;
+    color: aliceblue;
+    border: none;
+}
+input[type='submit']{
+    background-color: #3a3a3a;
+    width: 25%;
+    height: 40px;
+    outline: none;
+    font-size: 1rem;
+    border-radius: 4px;
+    color: aliceblue;
+    border: none;
+    cursor: pointer;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.fact{
+    font-size: 1.1rem;
+    letter-spacing: 0.1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
