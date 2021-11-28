@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analog Clock and Digital Clock</title>
+
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+
+    <section class="container">
+        <div class="analog">
+            <div class="clock">
+                <div class="seconds"></div>
+                <div class="min"></div>
+                <div class="hour"></div>
+            </div>
+        </div>
+        <div class="digital">
+            <div class="digi">
+                <h2><span class="time" data-format='24'>12 : 08 : 50</span> <span class="state"></span></h2>
+                <h3>Format</h3>
+                <div class="btns">
+                    <button class="for12" data-format='12'>12 Hours</button>
+                    <button class="for24" data-format='24'>24 Hours</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="./script.js"></script>
+    
+</body>
+</html>
