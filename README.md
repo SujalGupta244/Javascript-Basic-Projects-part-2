@@ -1,4 +1,4 @@
-# Javascript-Basic-Projects-part-2
+# Javascript-Simple-Projects
 
 Simple projects made with javascript as core technology.
 
