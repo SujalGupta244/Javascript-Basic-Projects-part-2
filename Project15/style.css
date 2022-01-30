@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    background-color: #000;
+    position: relative;
+    overflow: hidden;
+}
+
+.logo{
+    position: absolute;
+    fill: aquamarine;
+    width: 150px;
+}
+
+@media only screen and (max-width : 768px) {
+    .logo{
+        width: 100px;
+    }
+}
+
+
+
+
+
+
+
