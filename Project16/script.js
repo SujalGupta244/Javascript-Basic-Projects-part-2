@@ -10,7 +10,6 @@ window.addEventListener("DOMContentLoaded",()=>{
         let data = request.json()
         .then((res) => {
             showQues(res.results[0]);
-            console.log(res.results[0].correct_answer);
         });
     }
     
